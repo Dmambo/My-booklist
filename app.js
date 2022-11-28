@@ -16,7 +16,7 @@ class Book {
 class Store {
    static getBooks() {
         let books;
-        if(localStorage.getItem('books') === null) {
+        if (localStorage.getItem('books') === null) {
             books = [];
         } else {
             books = JSON.parse(localStorage.getItem('books'));
@@ -24,7 +24,7 @@ class Store {
 
         return books;
     }
-    
+
     static addBook(book) {
         const books = Store.getBooks();
         books.push(book);
@@ -35,16 +35,14 @@ class Store {
         const books = Store.getBooks();
 
         books.forEach((book, index) => {
-            if(book.author === author) {
+            if (book.author === author) {
                 books.splice(index, 1);
             }
         });
 
         localStorage.setItem('books', JSON.stringify(books));
     }
-
 }
-
 
 
 // UI class: handle UI tasks
@@ -60,21 +58,19 @@ class UI {
 
     static addBookToList(book) {
         const list = document.querySelector('#added-book');
-         
+
         const row = document.createElement('tr');
 
         row.innerHTML = `
             ${book.title}
             ${book.author}
             <a href="#" class="delete">remove</a>`;
-        ;
         
         list.appendChild(row);
 
-
     }
     static deleteBook(el) {
-    if(el.classList.contains('delete')) {
+    if (el.classList.contains('delete')) {
         el.parentElement.remove();
     }
 }
@@ -110,7 +106,6 @@ btnInput.addEventListener('click', (e) => {
         UI.addBookToList(book);
         // clear fields
         UI.clearFields();
-
     }
 });
 
@@ -124,6 +119,3 @@ addedBooks.addEventListener('click', (e) => {
      // Remove book from store
      Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
-
-
-
