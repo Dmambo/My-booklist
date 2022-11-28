@@ -64,8 +64,8 @@ class UI {
             ${book.author}
             <a href="#" class="delete">remove</a>`;
         list.appendChild(row);
-
     }
+    
     static deleteBook(el) {
     if (el.classList.contains('delete')) {
         el.parentElement.remove();
