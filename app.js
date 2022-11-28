@@ -1,3 +1,5 @@
+/* eslint-disable max-classes-per-file */
+/* eslint-disable indent-error*/
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 const btnInput = document.getElementById('submit-btn');
