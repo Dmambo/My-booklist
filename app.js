@@ -43,8 +43,6 @@ class Store {
         localStorage.setItem('books', JSON.stringify(books));
     }
 }
-
-
 // UI class: handle UI tasks
 
 class UI {
@@ -65,7 +63,6 @@ class UI {
             ${book.title}
             ${book.author}
             <a href="#" class="delete">remove</a>`;
-        
         list.appendChild(row);
 
     }
@@ -73,6 +70,7 @@ class UI {
     if (el.classList.contains('delete')) {
         el.parentElement.remove();
     }
+
 }
 
     static clearFields() {
@@ -80,7 +78,6 @@ class UI {
     authorInput.value = '';
     }
 }
-
 
 // Event: Display Books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
@@ -95,7 +92,7 @@ btnInput.addEventListener('click', (e) => {
     const author = authorInput.value;
 
     // Validate
-    if(title === '' || author === '') {
+    if (title === '' || author === '') {
         alert('Please fill in all fields');
     } else {
         // Instatiate book
