@@ -27,6 +27,38 @@ form input {
   padding: 10px;
 }
 
+#submit-btn {
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  float: left;
+  align-self: flex-end;
+}
+
+#added-book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 15px;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #fffefe;
+  color: rgb(20, 20, 20);
+  padding: 2px 2px;
+  border-radius: 5px;
+  border: 2px solid rgb(20, 20, 20);
+  cursor: pointer;
+  margin-top: 10px;
+}
+
 .delete {
   text-decoration: none;
   color: red;
