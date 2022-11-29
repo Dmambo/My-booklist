@@ -1,6 +1,7 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable indent */
 /* eslint-disable no-alert */
+
 const titleInput = document.getElementById('title');
 const authorInput = document.getElementById('author');
 const btnInput = document.getElementById('submit-btn');
@@ -61,15 +62,21 @@ class UI {
         const row = document.createElement('tr');
 
         row.innerHTML = `
-            ${book.title}
-            ${book.author}
-            <a href="#" class="delete">remove</a>`;
+           <div class="book-container">
+                <div class="book">
+                    "${book.title}" by
+                    ${book.author}
+                </div>
+                    <div class="delete-btn">
+                    <a href="#" class="delete">remove</a>
+                    </div>
+            </div>`;
         list.appendChild(row);
     }
 
     static deleteBook(el) {
     if (el.classList.contains('delete')) {
-        el.parentElement.remove();
+        el.parentElement.parentElement.parentElement.remove();
     }
 }
 
