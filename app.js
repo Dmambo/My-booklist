@@ -89,7 +89,7 @@ class UI {
 // Event: Display Books
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
-// Event: Add a Book
+// Event: Add a Book-List
 btnInput.addEventListener('click', (e) => {
     // Prevent actual submit
     e.preventDefault();
