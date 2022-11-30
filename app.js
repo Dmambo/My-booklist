@@ -167,7 +167,7 @@ book.addEventListener('click', (e) => {
     contact.classList.remove('active');
 });
 
-// Contact
+// Contact 170
 contact.addEventListener('click', (e) => {
     e.preventDefault();
     document.getElementById('added-book').style.display = 'none';
