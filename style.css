@@ -82,7 +82,7 @@ form {
 form input {
   padding: 10px;
   width: 880px;
-  margin: 20px auto;  
+  margin: 20px auto;
 }
 
 #submit-btn {
@@ -230,7 +230,7 @@ footer {
   }
 
   .navbar {
-  flex-direction: row;
+    flex-direction: row;
   }
 
   #date {

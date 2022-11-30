@@ -1,5 +1,5 @@
 /* eslint-disable max-classes-per-file */
-/* eslint-disable-next-line no-unused-vars */
+/* eslint-disable no-unused-vars */
 /* eslint-disable indent */
 /* eslint-disable no-alert */
 
