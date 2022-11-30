@@ -1,4 +1,5 @@
 /* eslint-disable max-classes-per-file */
+/* eslint-disable no-unused-vars */
 /* eslint-disable indent */
 /* eslint-disable no-alert */
 
@@ -84,6 +85,11 @@ class UI {
     titleInput.value = '';
     authorInput.value = '';
     }
+
+    static displayList() {
+        const list = document.querySelector('#added-book');
+        list.style.display = 'flex';
+    }
 }
 
 // Event: Display Books
@@ -122,4 +128,52 @@ addedBooks.addEventListener('click', (e) => {
 
      // Remove book from store
      Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
+});
+
+// Add date
+const generateId = () => Date.now().toString(36) + Math.random().toString(36).substring(2);
+document.getElementById('date').innerText = new Date();
+
+//  single page
+const book = document.getElementById('book');
+const addBook = document.getElementById('addbook');
+const contact = document.getElementById('contacts');
+
+// addbook
+addBook.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('added-book').style.display = 'none';
+    document.getElementById('book-form').style.display = 'flex';
+    document.getElementById('contact').style.display = 'none';
+    document.querySelector('.booksawe').style.display = 'none';
+    document.querySelector('.newbook').style.display = 'flex';
+    addBook.classList.add('active');
+    book.classList.remove('active');
+    contact.classList.remove('active');
+});
+// show Book
+book.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    document.getElementById('added-book').style.display = 'flex';
+    document.getElementById('book-form').style.display = 'none';
+    document.getElementById('contact').style.display = 'none';
+    document.querySelector('.booksawe').style.display = 'flex';
+    document.querySelector('.newbook').style.display = 'none';
+    book.classList.add('active');
+    addBook.classList.remove('active');
+    contact.classList.remove('active');
+});
+
+// Contact 170
+contact.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('added-book').style.display = 'none';
+    document.getElementById('book-form').style.display = 'none';
+    document.getElementById('contact').style.display = 'flex';
+    document.querySelector('.booksawe').style.display = 'none';
+    document.querySelector('.newbook').style.display = 'none';
+    contact.classList.add('active');
+    book.classList.remove('active');
+    addBook.classList.remove('active');
 });
