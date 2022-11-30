@@ -8,8 +8,6 @@ const authorInput = document.getElementById('author');
 const btnInput = document.getElementById('submit-btn');
 const addedBooks = document.getElementById('added-book');
 
-// const nav = document.querySelector('.nav-list');
-
 // Book class: represents a book
 class Book {
     constructor(title, author) {

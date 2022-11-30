@@ -1,67 +1,143 @@
-# My-booklist
+<div align="center">
 
-## Built With
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-- Major languages: HTML, CSS and Javascript
-- Frameworks: Nodejs
-- Technologies: Github and Vscode
+</div>
 
-## Live Demo
+<!-- TABLE OF CONTENTS -->
 
-[Live Demo Link](https://dmambo.github.io/My-booklist/)
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-## Getting Started
+<!-- PROJECT DESCRIPTION -->
 
-To get a local copy up and running follow these simple example steps.
- - Clone the repository into your local machine
- - Open the cloned file in Vscode
- - Host locally  
+# 📖 [your_project_name] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
+
+## 🛠 Built With <a name="built-with">HTML, CSS AND JAVASCRIPT</a>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://dmambo.github.io/My-booklist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+To use this project.
+First you need to clone the respository into your local machine.
 
 ### Prerequisites
-  - An understanding of HTML, CSS and Javascript
-  - A github account and Vscode installed in local machine
+
+In order to run this project you need:
+
+html, css and javascript.
 
 ### Setup
-  - Linters configurations and starter files
-### Install
-  - Vscode, Node and NPM
-### Usage
 
-### Run tests
-  - Github actions and local linters test
-### Deployment
-  - Create a new repository
-  - On GitHub, navigate to your site's repository.
-  - Under your repository name, click  Settings.
-  - In the "Code and automation" section of the sidebar, click  Pages.
-  - Under the branch section,select the "main" branch from the dropdown and click "Save".
+Clone this repository to your desired folder:
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 
-## Authors
 
-👤 **Ibrahim Diaby**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- GitHub: [@Dmambo](https://github.com/Dmambo)
-- Twitter: [@kingibro345 ](https://twitter.com/kingibro345 )
-- LinkedIn: [Ibrahim Diaby Mohammed](https://linkedin.com/in/Ibrahim-Diaby-Mohammed )
+<!-- AUTHORS -->
 
-👤 **Kelvin Kiplimo**
+## 👥 Authors <a name="authors"></a>
 
-- GitHub: [@rikol137](https://github.com/rikol137)
-- Twitter: [@rikol137](https://twitter.com/rikol137)
-- LinkedIn: [Kelvin Kiplimo](https://linkedin.com/in/kelvin-Kiplimo)
+> Mention all of the collaborators of this project.
 
-## 🤝 Contributing
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/Dmambo)
+- Twitter: [@twitterhandle](https://twitter.com/kingibro345)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Ibrahim mohammed diaby)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/Rikol137)
+- Twitter: [@twitterhandle](https://twitter.com/RikolK)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Kelvin Kimwetich)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Dmambo/My-booklist/issues).
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
-## 📝 License
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
