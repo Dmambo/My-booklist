@@ -9,30 +9,64 @@
 </head>
 <body>
     <header>
-        <h1>All Awesome Books</h1>
+        <nav>
+           <div class="logo">
+            <h1>Awesome Books</h1>
+           </div>
+            <div class="navbar">
+                <ul>
+                    <li class="nav-list active" id="book">List</li>
+                    <li class="nav-list" id="addbook">Add New</li>
+                    <li class="nav-list" id="contacts">Contact</li>
+                </ul>
+            </div>
+        </nav>
+        <p id="date"></p>
     </header>
     <main>
-        <section id="added-book">
+        <div class="booksawe">
+            <h2>All Awesome Books</h2>
+        </div>
+        <section id="added-book" class="added-book">
+            
         </section>
-        <section id="book-form">
-            <h2>Add books</h2>
-        </section>
-    <form action="" id="book-form">
-        <input
-            type="text"
-            name="book-title"
-            id="title"
-            placeholder="Title of Book"
-          />
-          <input
-            type="text"
-            name="book-author"
-            id="author"
-            placeholder="Author of Book"
-          />
-          <input type="submit" id="submit-btn" value="Add" />
-    </form>
+        <section>
+            
+            <div class="newbook">
+                <h2>Add a new books</h2>
+            </div>
+            <form action="" id="book-form">   
+                <input
+                    type="text"
+                    name="book-title"
+                    id="title"
+                    placeholder="Title of Book"
+                />
+                <input
+                    type="text"
+                    name="book-author"
+                    id="author"
+                    placeholder="Author of Book"
+                />
+                <input type="submit" id="submit-btn" value="Add" />
+            </form>
+       </section>
+
+    <section class="contact" id="contact">
+            <h2>Contact Information</h2>
+            <p>Do you have any question or you just want to say "Hello"? You can contact me on:</p>
+            <ul>
+                <li>Twitter: <a href="https://twitter.com/kingibro345">@kingibro345</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/ibrahim mohammed diaby">Ibrahim</a></li>
+                <li>GitHub: <a href="https://www.github.com/Dmambo">Dmambo</a>
+                <li>Gmail: <a href="https://www.gmail.com/Dmambo">ibkhalidworld@gmail.com</a>             
+            </ul>
+            </p>
+    </section>
     </main>
+    <footer>
+        <h5>Copyright @Dmambo 2022</h5>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>
