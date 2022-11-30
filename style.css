@@ -28,9 +28,21 @@ nav {
   color: white;
 }
 
+.contact a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
 .navbar ul li a {
   text-decoration: none;
   color: white;
+}
+
+.contact ul li {
+  margin-bottom: 10px;
+  gap: 12px;
+  line-height: 14px;
 }
 
 .navbar ul li:hover {
@@ -70,8 +82,7 @@ form {
 form input {
   padding: 10px;
   width: 880px;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 20px auto;  
 }
 
 #submit-btn {
@@ -161,6 +172,7 @@ form input {
   0% {
     transform: translateX(100%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -186,7 +198,6 @@ footer {
 }
 
 .contact {
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,18 +219,21 @@ footer {
   font-size: 1.2rem;
 }
 
-.contact ul li {
-  margin-bottom: 10px;
-  gap: 12px;
-  line-height: 14px;
-}
-
-.contact a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2rem;
-}
-
 .contact a:hover {
   color: blue;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    max-width: 100%;
+    border: none;
+  }
+
+  .navbar {
+  flex-direction: row;
+  }
+
+  #date {
+    display: none;
+  }
 }

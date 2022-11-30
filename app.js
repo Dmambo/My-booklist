@@ -1,4 +1,5 @@
 /* eslint-disable max-classes-per-file */
+/* eslint-disable-next-line no-unused-vars */
 /* eslint-disable indent */
 /* eslint-disable no-alert */
 
@@ -8,7 +9,6 @@ const btnInput = document.getElementById('submit-btn');
 const addedBooks = document.getElementById('added-book');
 
 // const nav = document.querySelector('.nav-list');
-
 
 // Book class: represents a book
 class Book {
@@ -90,7 +90,7 @@ class UI {
 
     static displayList() {
         const list = document.querySelector('#added-book');
-        list.style.display = 'flex'
+        list.style.display = 'flex';
     }
 }
 
@@ -152,7 +152,6 @@ addBook.addEventListener('click', (e) => {
     addBook.classList.add('active');
     book.classList.remove('active');
     contact.classList.remove('active');
-
 });
 // show Book
 book.addEventListener('click', (e) => {
